@@ -26,7 +26,7 @@ public class SearchBrandTest {
                 {"Soch"}
         };
     }
-
+//TEST TEST
     @Test(dataProvider = "ValidBrandNames", groups = {Categories.SMOKE, Categories.REGRESSION})
     public void shouldBeAbleToSearchBrand(String brandName) throws Exception {
 
